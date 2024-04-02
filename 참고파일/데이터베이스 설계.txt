@@ -1,0 +1,20 @@
+USERS
+	id(email)
+	password
+	name
+	
+
+INGREDIENTS
+	ingredient_name
+	count
+	ingredient_category
+	expiration date
+
+RECIPES
+	recipe_name
+BOARDS
+	title
+	content
+	user_name
+	watch_count
+	text_category
