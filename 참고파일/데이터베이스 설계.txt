@@ -1,20 +1,73 @@
+1. 사용자 테이블
 USERS
-	id(email)
-	password
-	name
+	id(email) > primarykey
+not null	password
+not null	name
+	profileimg_url
+
 	
 
+2. 재료 테이블
 INGREDIENTS
+	ingredient_id > primarykey
+	user_id > foreignkey
 	ingredient_name
+	expiration date
 	count
 	ingredient_category
-	expiration date
+	
 
+3. 레시피 테이블
 RECIPES
 	recipe_name
-BOARDS
+
+4. 레시피 재료 테이블
+RECIPESINGREDIENTS
+
+5.레시피 좋아요 테이블(북마크 기능 대체)
+RECIPESLIKE
+	
+
+5. 공지 테이블
+NOTICEBOARDS
+
+
+6. 레시피 공유 게시판 테이블
+RECIPEBOARDS
+	
 	title
 	content
-	user_name
+
+7. 레시피 공유 게시판 댓글 테이블 
+RECIPECOMMENTS
+	comment_id > primarykey
+
+
+
+8. 레시피 공유 게시판 좋아요 테이블 
+RECIPEBOARDSLIKE
+
+
+
+
+
+9. 자유 게시판 테이블 
+BOARDS
+	post_id > primarykey
+	user_id > foreignkey
+	title
+	content
 	watch_count
-	text_category
+	
+
+10. 자유 게시판 댓글 테이블 
+COMMENTS
+	comment_id > primarykey
+	post_id > foreignkey
+	user_id > foreignkey
+	content
+	posted_at
+	
+	
+	
+
