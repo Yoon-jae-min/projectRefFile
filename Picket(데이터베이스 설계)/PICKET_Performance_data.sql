@@ -59,9 +59,9 @@ values('국립오페라단 - 한여름 밤의 꿈', '클래식/무용/국악>클
 insert into performance(title, category, dates, place, price) 
 values('클래식 디깅 클럽 - 드뷔시', '클래식/무용/국악>클래식', '2024.06.01 ~ 2024.06.01', '예술의전당 IBK 챔버홀', 50000);
 insert into performance(title, category, dates, place, price)
-values('지브리 & 히사이시 조 : 디오케스트라 - 부천', '클래식/무용/국악>클래식', '2024.04.20 ~ 2024.04.20', '부천아트센터 콘서트홀', 50000);
+values('지브리 ''&'' 히사이시 조 : 디오케스트라 - 부천', '클래식/무용/국악>클래식', '2024.04.20 ~ 2024.04.20', '부천아트센터 콘서트홀', 50000);
 insert into performance(title, category, dates, place, price) 
-values('정명훈&도쿄필하모닉 내한공연', '클래식/무용/국악>클래식', '2024.05.09 ~ 2024.05.09', '세종문화회관 대극장', 50000);
+values('정명훈''&''도쿄필하모닉 내한공연', '클래식/무용/국악>클래식', '2024.05.09 ~ 2024.05.09', '세종문화회관 대극장', 50000);
 insert into performance(title, category, dates, place, price) 
 values('리얼뱅크시 REAL BANKSY', '전시 > 전시', '2024.05.10 ~ 2024.10.20', '그라운드서울 기획전시관 (구.아라아트센터)', 20000);
 insert into performance(title, category, dates, place, price) 
