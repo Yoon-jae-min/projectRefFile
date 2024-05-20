@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'sdgothic';
+  font-weight: 500;
+  src: url('../font/Apple_산돌고딕_Neo/AppleSDGothicNeoL.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'sdgothic';
+  font-weight: 300;
+  src: url('../font/Apple_산돌고딕_Neo/AppleSDGothicNeoEB.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'sdgothic';
+  font-weight: 900;
+  src: url('../font/Apple_산돌고딕_Neo/AppleSDGothicNeoB.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'wind';
+  font-weight: 500;
+  src: url('../font/둥근바람체/TmoneyRoundWindRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'wind';
+  font-weight: 300;
+  src: url('../font/둥근바람체/TmoneyRoundWindExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'godam';
+  font-weight: 500;
+  src: url('../font/Gotham-Font/Gotham-Light.otf') format('truetype');
+}
